@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Proyek - Koleksi Karya</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome untuk ikon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Proyek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Keahlian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4">
+              Koleksi <span class="text-highlight">Proyek</span> Saya
+            </h1>
+            <p class="lead mb-4">
+              Selamat datang di galeri portofolio saya. Halaman ini menampilkan
+              semua proyek yang pernah saya buat, dari website sederhana hingga
+              aplikasi kompleks.
+            </p>
+            <div class="d-flex flex-wrap">
+              <a href="#projects" class="btn btn-primary btn-lg me-3 mb-3">
+                Lihat Proyek <i class="fas fa-arrow-down ms-2"></i>
+              </a>
+              <a href="#about" class="btn btn-outline-primary btn-lg mb-3">
+                Tentang Saya <i class="fas fa-user ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="hero-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Coding Illustration"
+                class="img-fluid rounded hero-img"
+              />
+              <div class="floating-badge">
+                <i class="fas fa-laptop-code"></i>
+                <span>30+ Proyek</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 col-6 mb-4">
+            <div class="stat-item">
+              <h3 class="display-5 fw-bold text-primary">20+</h3>
+              <p class="text-muted">Proyek Selesai</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="stat-item">
+              <h3 class="display-5 fw-bold text-primary">3+</h3>
+              <p class="text-muted">Tahun Pengalaman</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="stat-item">
+              <h3 class="display-5 fw-bold text-primary">20+</h3>
+              <p class="text-muted">Klien Puas</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="stat-item">
+              <h3 class="display-5 fw-bold text-primary">5+</h3>
+              <p class="text-muted">Teknologi Dikuasai</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h2>Proyek Saya</h2>
+          <p class="text-muted">
+            Berikut adalah beberapa proyek terbaik yang pernah saya kerjakan
+          </p>
+        </div>
+
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card project-card h-100">
+              <div class="project-badge">Website</div>
+              <img
+                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                class="card-img-top project-img"
+                alt="E-Commerce Platform"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title project-title">Belajar HTML Pertamaku</h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="project-year">2025</span>
+                  <span class="project-status status-completed">Selesai</span>
+                </div>
+                <p class="card-text project-description flex-grow-1">
+                  Ini adalah projek belajar HTML pertamaku di dunia kuliah,
+                  tampilan nya masih sederhana banget karena belum mengenal css.
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="tech-tag">HTML</span>
+                </div>
+                <div class="mt-auto">
+                  <a
+                    href="project/project 1/index.html"
+                    class="btn btn-view w-100"
+                  >
+                    <i class="fas fa-external-link-alt me-2"></i>Lihat Hasilnya
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card project-card h-100">
+              <div class="project-badge">Website</div>
+              <img
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                class="card-img-top project-img"
+                alt="Fitness App"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title project-title">E-Commerce</h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="project-year">2025</span>
+                  <span class="project-status status-completed">Selesai</span>
+                </div>
+                <p class="card-text project-description flex-grow-1">
+                  Aplikasi pelacakan aktivitas fitness dengan integrasi wearable
+                  devices dan rekomendasi personal.
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+                <div class="mt-auto">
+                  <a
+                    href="https://muhammadalfinalmuzakki1-tech.github.io/E-Commerce-GedgetOne/"
+                    class="btn btn-view w-100"
+                  >
+                    <i class="fas fa-external-link-alt me-2"></i>Lihat Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card project-card h-100">
+              <div class="project-badge">UI/UX Design</div>
+              <img
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                class="card-img-top project-img"
+                alt="Banking App Design"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title project-title">Mockup Gemini</h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <span class="project-year">2025</span>
+                  <span class="project-status status-completed">Selesai</span>
+                </div>
+                <p class="card-text project-description flex-grow-1">
+                  Desain UI/UX untuk aplikasi Gemini dengan fokus pada
+                  pengalaman pengguna yang lebih baik.
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="tech-tag">Figma</span>
+                  <span class="tech-tag">Adobe XD</span>
+                  <span class="tech-tag">User Research</span>
+                </div>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-view w-100">
+                    <i class="fas fa-external-link-alt me-2"></i>Lihat Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary btn-lg">
+            <i class="fas fa-folder-open me-2"></i>Lihat Semua Proyek
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+      <div
+        class="container justify-content-center align-items-center min-vh-100 bg-light"
+      >
+        <div class="section-header text-center mb-5">
+          <h2>Keahlian Teknis</h2>
+          <p class="text-muted">Teknologi dan tools yang saya kuasai</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mb-4">
+            <div class="skill-category">
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>HTML/CSS</span>
+                  <span>60%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>Figma</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>Bootstrap</span>
+                  <span>20%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 20%"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span>React</span>
+                  <span>10%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 10%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-12">
+            <h4 class="text-center mb-4">Teknologi Lainnya</h4>
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="tech-icon">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-figma"></i>
+                <span>Figma</span>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-react"></i>
+                <span>React Native</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4">
+            <div class="about-content">
+              <div class="section-header mb-4">
+                <h2>Tentang Saya</h2>
+                <p class="text-muted">
+                  Developer dengan passion menciptakan solusi digital
+                </p>
+              </div>
+              <p>
+                Saya seorang Desainer Grafis dengan pengalaman lebih dari 3
+                tahun dalam merancang desain logo brand, dan lain-lain. Saya
+                memiliki passion dalam menciptakan desain yang enak di pandang
+                oleh mata , tetapi juga memberikan hasil yang berkualitas.
+              </p>
+              <p>
+                Halaman ini merupakan kumpulan dari proyek-proyek terbaik yang
+                pernah saya kerjakan, baik secara profesional maupun personal.
+                Setiap proyek memiliki cerita dan tantangan tersendiri yang
+                berkontribusi pada perkembangan skill dan pengetahuan saya.
+              </p>
+              <div class="mt-4">
+                <a
+                  href="mailto:muhammadalfinalmuzakki1@gmail.com"
+                  class="btn btn-primary me-3"
+                >
+                  <i class="fas fa-envelope me-2"></i>Hubungi Saya
+                </a>
+                <a href="#" class="btn btn-outline-primary">
+                  <i class="fas fa-download me-2"></i>Download CV
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="about-image text-center">
+              <img
+                src="fotoku.jpg"
+                alt="Profile"
+                class="img-fluid rounded-circle about-img"
+              />
+              <div class="experience-badge">
+                <span class="exp-number">3+</span>
+                <span class="exp-text">Tahun Pengalaman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h4 class="mb-4"><i class="fas fa-code me-2"></i>MyPortfolio</h4>
+            <p>
+              Halaman portofolio untuk menampilkan semua proyek yang pernah
+              dibuat. Temukan inspirasi dan lihat karya-karya terbaik dalam
+              pengembangan web dan aplikasi.
+            </p>
+            <div class="social-links mt-4">
+              <a href="#" class="social-icon me-3">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-icon me-3">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-icon me-3">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <h4 class="mb-4">Kategori Proyek</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right me-2"></i>Website
+                  Development</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right me-2"></i>Aplikasi Mobile</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right me-2"></i>UI/UX Design</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right me-2"></i>E-Commerce</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right me-2"></i>Dashboard &
+                  Analytics</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <h4 class="mb-4">Kontak</h4>
+            <ul class="contact-info">
+              <li class="mb-3">
+                <i class="fas fa-envelope me-3"></i>
+                <span>muhammadalfinalmuzakki1@gmail.com</span>
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone me-3"></i>
+                <span>+62 8578 5947 659</span>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-3"></i>
+                <span>Jombang, Indonesia</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">&copy; 2023 MyPortfolio. Semua Hak Dilindungi.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p class="mb-0">
+              Dibuat dengan <i class="fas fa-heart text-danger"></i> dan
+              Bootstrap
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (optional, hanya untuk navbar toggle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
